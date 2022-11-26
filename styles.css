@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  background-color: #4f0c1e;
+  color: white;
+}
+
+#header-img {
+  width: 100%;
+  margin-bottom: 0;
+  
+
+}
+
+#header {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    background-color: #fce0ac;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    height: fit-content;
+    place-items: center;
+}
+
+.logo-title {
+  color: rgb(43, 39, 39);
+  font-size: 3.5em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #924b75;
+  text-align: center;
+}
+
+.logo-sub {
+  color: rgb(62, 59, 59);
+  font-family: monospace;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.sub-sub {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1.2em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 5px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a {
+  color: rgb(43, 39, 39);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+  color: white;
+  background-color: #4f0c1e;
+  cursor: pointer;
+  padding: 5px;
+}
+
+a:last-of-type {
+  margin-left: 5px;
+}
+
+#One_day_with_us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#Our_Tours {
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+}
+
+.tours-menu {
+  border: 2px solid black;
+}
+
+
+#email_form {
+  text-align: center;
+  padding: 25px;
+}
+ 
